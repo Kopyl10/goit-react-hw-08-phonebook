@@ -32,6 +32,7 @@ function App() {
           path="/contacts"
           element={<PrivateRoute component={ContactsPage} />}
         />
+        <Route path="/" element={<PublicRoute component={LoginPage} />} />
       </Routes>
     </>
   );
